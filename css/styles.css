@@ -67,3 +67,81 @@ nav li a:hover {
 	background-color: #ffffff;
 	text-decoration: underline;
 }
+
+/* --- Main --- */
+
+main {
+	min-height: 500px;
+	background-color: #e2cdb1;
+}
+
+main img {
+	float: right;
+	height: 300px;
+	padding: 1%;
+}
+
+main h1 {
+	text-align: center;
+	font-size: 3em;
+}
+
+main blockquote {
+	font-size: 1.75em;
+	padding: 1.5%;
+}
+
+fieldset {
+	margin: 1%;
+    display: block;
+    border: 1px black solid;
+}
+
+label {
+	display: block;
+	font-size: 1.5em;
+	padding: 1%;
+}
+
+input {
+	margin: .75%;
+	padding: .5%;
+	display: block;
+}
+
+#submit {
+	display: inline-block;
+	justify-content: center;
+	font-size: 1.25em;
+	padding: .75%;
+	border-radius: 8px;
+}
+
+#submit:hover {
+	background-color: #000;
+	color: #fff;
+}
+
+#reset {
+	display: inline-block;
+	justify-content: center;
+	font-size: 1.25em;
+	padding: .75%;
+	border-radius: 8px;
+}
+
+#reset:hover {
+	background-color: #000;
+	color: #fff;
+}
+
+/* --- Footer --- */
+
+footer {
+	background-color: #93a880;
+}
+
+footer p {
+	text-align: center;
+	padding: .5%;
+}
